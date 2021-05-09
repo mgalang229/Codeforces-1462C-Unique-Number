@@ -19,7 +19,7 @@ int main() {
 		// in getting the sum
 		while (sum < x && last > 0) {
 			// pick the smaller digit, between the remaining digit that needs to be added
-			// to get the value of 'x' (min(x - sum)) and the last digit from where we start
+			// to get the value of 'x' (x - sum) and the last digit from where we start
 			// to subtract the value of 'x'
 			ans.push_back(min(x - sum, last));
 			// add the 'last' variable to the 'sum'
